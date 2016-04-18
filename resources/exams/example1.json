@@ -1,0 +1,21 @@
+{
+	"title": "Quiz1",
+	"exam-version": "0.1",
+	"quiz-number": "1",
+	"questions": [{
+		"q": "20/2 is equal to?",
+		"c": ["10", "15", "5", "20"],
+		"a": "10",
+		"l": "q1"
+	}, {
+		"q": "What does the square root of 144 equal?",
+		"c": ["8", "12", "14", "18"],
+		"a": "12",
+		"l": "q2"
+	}, {
+		"q": "What comes before monday and after saturday?",
+		"c": ["Sunday", "Tuesday", "Wednesday", "Thursday"],
+		"a": "Sunday",
+		"l": "q3"
+	}]
+}

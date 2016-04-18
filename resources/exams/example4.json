@@ -1,0 +1,21 @@
+{
+	"title": "Quiz4",
+	"exam-version": "0.1",
+	"quiz-number": "4",
+	"questions": [{
+		"q": "What does 3 squared equal?",
+		"c": ["64", "45", "9", "55"],
+		"a": "9",
+		"l": "q1"
+	}, {
+		"q": "5 to the power of 0 equals what?",
+		"c": ["0", "5", "1", "25"],
+		"a": "1",
+		"l": "q2"
+	}, {
+		"q": "How many days are in December?",
+		"c": ["30", "29", "28", "31"],
+		"a": "31",
+		"l": "q3"
+	}]
+}

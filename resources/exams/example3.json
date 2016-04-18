@@ -1,0 +1,21 @@
+{
+	"title": "Quiz3",
+	"exam-version": "0.1",
+	"quiz-number": "3",
+	"questions": [{
+		"q": "7 x 9 = ?",
+		"c": ["79", "63", "80", "57"],
+		"a": "63",
+		"l": "q1"
+	}, {
+		"q": "How many colors are in rainbow?",
+		"c": ["9", "7", "6", "8"],
+		"a": "7",
+		"l": "q2"
+	}, {
+		"q": "How do you determine if empty?",
+		"c": ["empty?", "exist?", "map", "reduce"],
+		"a": "empty?",
+		"l": "q3"
+	}]
+}

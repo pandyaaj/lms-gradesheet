@@ -1,0 +1,21 @@
+{
+	"title": "Quiz2",
+	"exam-version": "0.1",
+	"quiz-number": "2",
+	"questions": [{
+		"q": "What is 87 + 56 = ?",
+		"c": ["143", "78", "90", "5"],
+		"a": "143",
+		"l": "q1"
+	}, {
+		"q": "What is 3 * 3 = ?",
+		"c": ["6", "9", "18", "10"],
+		"a": "9",
+		"l": "q2"
+	}, {
+		"q": "How do you determine if empty?",
+		"c": ["empty?", "exist?", "map", "reduce"],
+		"a": "empty?",
+		"l": "q3"
+	}]
+}

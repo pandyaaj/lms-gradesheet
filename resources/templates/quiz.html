@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>Trivia Quiz</title>
+  </head>
+  <body>
+
+<div class="jumbotron">
+<h1>{{title}}</h1>
+<hr/>
+<form method="post" action="/submit">
+    {% csrf-field %}
+    <ol>
+        {% for question in questions %}
+        <li>{{ question.q }} <br/>
+            <ul>
+                {% for x in question.c }}
+                <input type=radio name="{{question.l}}" value="{{x}}"> {{x}} <br/>
+                {% endfor %}
+            </ul> </li> <br/>
+        {% endfor %}
+    </ol>
+    CIN: &nbsp; <input type=text name=cin value='' />&nbsp;
+    <input type=submit class="btn btn-info" value=Submit > <br/>
+    <input type=hidden name=exam-number value="{{quiz-number}}" />
+    <input type=hidden name=exam-version value="{{exam-version}}" />
+</form>
+<hr/>
+      </div>
+    </body>
+</html>
+
+
